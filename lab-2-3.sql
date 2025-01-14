@@ -7,3 +7,9 @@
 -- +------+-------------------+
 
 
+select year, name
+from teams
+where park = "U.S. Cellular Field"
+--where park like "U.S. Cell%"
+order by year desc
+limit 1
